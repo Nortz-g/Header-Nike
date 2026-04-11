@@ -7,19 +7,17 @@
     font-family: "Inter", sans-serif;
 }
 
-header {
+.header-top {
     width: 1580px;
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
-       
 }
 
 .menu-top {
     display: flex;
     list-style: none;
     gap: 30px;
-
 }
 
 .item-menu {
@@ -34,7 +32,12 @@ header {
     cursor: pointer;
 }
 
-.imagens-logo{
+.imagens-logo {
     display: flex;
     gap: 20px;
+}
+
+.barra {
+    border-width: 0px 1px 0px 0px;
+    border-color: grey;
 }
