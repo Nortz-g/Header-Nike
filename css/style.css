@@ -8,7 +8,7 @@
 }
 
 .header-top {
-    width: 1580px;
+    width: 100%;
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 .menu-top {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
 }
 
 .item-menu {
@@ -28,7 +28,7 @@
 }
 
 .item-menu:hover {
-    color: gray;
+    opacity: 0.6;
     cursor: pointer;
 }
 
@@ -39,5 +39,104 @@
 
 .barra {
     border-width: 0px 1px 0px 0px;
-    border-color: grey;
+    border-color: rgb(200, 200, 200);
+}
+
+.header-mid {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-mid {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.item-menu-mid {
+    font-size: 16px;
+    color: #111111;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.item-menu-mid:hover {
+    border-bottom: 2px solid black;
+}
+
+.nike-logo {
+    display: flex;
+    gap: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.icon-mid {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon-mid:hover {
+    opacity: 0.6;
+}
+
+.menu-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+.icon-bottom {
+    font-size: 16px;
+}
+
+.item-menu-bottom1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-menu-bottom2 {
+    font-size: 14px;
+}
+
+.item-menu-bottom3 {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.item-menu-bottom3:hover {
+    opacity: 0.6;
+}
+
+.seta-esquerda {
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 150px;
+}
+
+.seta-esquerda:hover {
+    opacity: 0.6;
+}
+
+.seta-direita {
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.seta-direita:hover {
+    opacity: 0.6;
 }
